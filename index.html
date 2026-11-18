@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Championship Craft | Sialkot, Pakistan</title>
+    <style>
+        /* Basic Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #111111;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        /* Header */
+        header {
+            background-color: #000000;
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 3px solid #d4af37; /* Championship Gold */
+        }
+        header h1 {
+            color: #d4af37;
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        header p {
+            color: #cccccc;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .section-title {
+            text-align: center;
+            color: #d4af37;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        /* Product Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .product-card {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            border-color: #d4af37;
+        }
+        .product-card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            background-color: #2a2a2a;
+        }
+        .product-card h3 {
+            margin: 15px 0 8px;
+            color: #ffffff;
+            font-size: 1.2rem;
+        }
+        .product-card p {
+            color: #aaaaaa;
+            font-size: 0.9rem;
+            padding: 0 15px 15px;
+        }
+        /* Order Button */
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+        .btn-whatsapp:hover {
+            background-color: #1ebe57;
+        }
+        /* About & Contact Section */
+        .contact-box {
+            background-color: #1e1e1e;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-box p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        .contact-box a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+        /* Floating WhatsApp Button */
+        .floating-wa {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 14px 22px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #777;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Legacy Championship Craft</h1>
+        <p>Custom Championship Belts &amp; Fine Craftsmanship — Sialkot, Punjab, Pakistan</p>
+    </header>
+
+    <!-- MAIN GALLERY -->
+    <div class="container">
+        <h2 class="section-title">Our Work &amp; Products</h2>
+        
+        <div class="gallery">
+
+            <!-- ITEM 1 (Copy this block to add more items) -->
+            <div class="product-card">
+                <!-- Replace "belt1.jpg" below with your exact uploaded image filename -->
+                <img src="belt1.jpg" alt="Custom Championship Belt 1">
+                <h3>Heavyweight Custom Belt</h3>
+                <p>Handcrafted brass plates with genuine leather strap.</p>
+                <a class="btn-whatsapp" href="https://wa.me/923121793334?text=Hello%20Legacy%20Championship%20Craft,%20I%20am%20interested%20in%20Heavyweight%20Custom%20Belt" target="_blank">Inquire on WhatsApp</a>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="product-card">
+                <!-- Replace "belt2.jpg" below with your exact uploaded image filename -->
+                <img src="belt2.jpg" alt="Custom Championship Belt 2">
+                <h3>World Champion Edition</h3>
+                <p>4mm CNC zinc/brass plates with custom logo engraving.</p>
+                <a class="btn-whatsapp" href="https://wa.me/923121793334?text=Hello%20Legacy%20Championship%20Craft,%20I%20am%20interested%20in%20World%20Champion%20Edition" target="_blank">Inquire on WhatsApp</a>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="product-card">
+                <!-- Replace "belt3.jpg" below with your exact uploaded image filename -->
+                <img src="belt3.jpg" alt="Custom Championship Belt 3">
+                <h3>Custom Tag Team Belt</h3>
+                <p>Worldwide shipping available from Sialkot, Pakistan.</p>
+                <a class="btn-whatsapp" href="https://wa.me/923121793334?text=Hello%20Legacy%20Championship%20Craft,%20I%20am%20interested%20in%20Custom%20Tag%20Team%20Belt" target="_blank">Inquire on WhatsApp</a>
+            </div>
+
+        </div>
+
+        <!-- CONTACT DETAILS -->
+        <div class="contact-box">
+            <h2 class="section-title" style="margin-bottom: 15px;">Contact &amp; Orders</h2>
+            <p><strong>Location:</strong> Sialkot, Punjab, Pakistan</p>
+            <p><strong>WhatsApp / Phone:</strong> <a href="https://wa.me/923121793334" target="_blank">+92 312 1793334</a></p>
+            <p><strong>Email:</strong> <a href="mailto:Legacychampionshipcraft@gmail.com">Legacychampionshipcraft@gmail.com</a></p>
+        </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a class="floating-wa" href="https://wa.me/923121793334?text=Hello%20Legacy%20Championship%20Craft,%20I%20want%20to%20place%20a%20custom%20order." target="_blank">
+        Chat on WhatsApp
+    </a>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2026 Legacy Championship Craft - Sialkot, Pakistan. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
